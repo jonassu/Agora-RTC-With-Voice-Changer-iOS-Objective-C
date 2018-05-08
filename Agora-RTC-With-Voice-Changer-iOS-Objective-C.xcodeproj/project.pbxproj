@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -171,11 +171,12 @@
 				TargetAttributes = {
 					0F1772E6209C2E2100625AB6 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 0F1772E2209C2E2100625AB6 /* Build configuration list for PBXProject "Agora-RTC-With-Voice-Changer-iOS-Objective-C" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -366,10 +367,7 @@
 				);
 				INFOPLIST_FILE = "Agora-RTC-With-Voice-Changer-iOS-Objective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-RTC-With-Voice-Changer-iOS-Objective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8f2851df-1a27-49e7-898b-bc211f878860";
@@ -391,10 +389,7 @@
 				);
 				INFOPLIST_FILE = "Agora-RTC-With-Voice-Changer-iOS-Objective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-RTC-With-Voice-Changer-iOS-Objective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
