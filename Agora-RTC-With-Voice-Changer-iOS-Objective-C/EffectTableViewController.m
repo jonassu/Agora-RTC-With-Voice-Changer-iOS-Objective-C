@@ -412,7 +412,7 @@
     } else if ([key isEqualToString:@"DryLevel"]) {
         [self.agoraKit setLocalVoiceReverbOfType:AgoraAudioReverbDryLevel withValue:(int)value];
     } else if ([key isEqualToString:@"WetLevel"]) {
-        [self.agoraKit setLocalVoiceReverbOfType:AgoraAudioReverbWetDelay withValue:(int)value];
+        [self.agoraKit setLocalVoiceReverbOfType:AgoraAudioReverbWetLevel withValue:(int)value];
     } else if ([key isEqualToString:@"RoomSize"]) {
         [self.agoraKit setLocalVoiceReverbOfType:AgoraAudioReverbRoomSize withValue:(int)value];
     } else if ([key isEqualToString:@"WetDelay"]) {

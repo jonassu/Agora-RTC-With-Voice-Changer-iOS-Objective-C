@@ -25,6 +25,7 @@
 		0F17731C209C374C00625AB6 /* EffectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F17731B209C374C00625AB6 /* EffectTableViewController.m */; };
 		0F17731F209C4D8B00625AB6 /* LogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F17731E209C4D8B00625AB6 /* LogCell.m */; };
 		0F177325209C6CD200625AB6 /* EffectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F177324209C6CD200625AB6 /* EffectCell.m */; };
+		704C1752213E7E5000313337 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704C1751213E7E4F00313337 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		0F17731E209C4D8B00625AB6 /* LogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogCell.m; sourceTree = "<group>"; };
 		0F177323209C6CD200625AB6 /* EffectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectCell.h; sourceTree = "<group>"; };
 		0F177324209C6CD200625AB6 /* EffectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectCell.m; sourceTree = "<group>"; };
+		704C1751213E7E4F00313337 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704C1752213E7E5000313337 /* Accelerate.framework in Frameworks */,
 				0F17730E209C2EC200625AB6 /* AudioToolbox.framework in Frameworks */,
 				0F17730C209C2EB800625AB6 /* AVFoundation.framework in Frameworks */,
 				0F17730A209C2EB000625AB6 /* libresolv.tbd in Frameworks */,
@@ -118,6 +121,7 @@
 		0F177300209C2E8E00625AB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				704C1751213E7E4F00313337 /* Accelerate.framework */,
 				0F17730D209C2EC200625AB6 /* AudioToolbox.framework */,
 				0F17730B209C2EB800625AB6 /* AVFoundation.framework */,
 				0F177309209C2EB000625AB6 /* libresolv.tbd */,
